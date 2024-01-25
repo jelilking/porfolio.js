@@ -771,10 +771,10 @@ h3.my-profession {
     flex: 0 0 100%;
     max-width: 100%;
   }
-  .about .about-content .personal-info {
-    /* width: 98%; */
+  /* .about .about-content .personal-info {
+    width: 98%;
     padding-right: 1.2rem;
-  }
+  } */
   .aside .nav-toggle {
     height: 40px;
     width: 45px;
