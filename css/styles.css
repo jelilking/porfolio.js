@@ -61,7 +61,8 @@ body {
 
 .padd-15 {
   padding-left: 15px;
-  padding-right: 15px;
+  /* padding-right: 15px; */
+  padding-right: 20px;
 }
 
 .container {
@@ -772,7 +773,7 @@ h3.my-profession {
   }
   .about .about-content .personal-info {
     /* width: 98%; */
-    padding-right: 4.5rem;
+    padding-right: 1.2rem;
   }
   .aside .nav-toggle {
     height: 40px;
