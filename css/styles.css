@@ -766,14 +766,14 @@ h3.my-profession {
   .service .service-item,
   .about .about-content .education,
   .about .about-content .experience,
-  .about .about-content .skills,
-  .about .about-content .personal-info {
+  .about .about-content .skills {
     flex: 0 0 100%;
     max-width: 100%;
   }
 
   .about .about-content .personal-info {
-    padding-right: 2rem;
+    flex: 0 0 80%;
+    max-width: 80%;
   }
 
   .aside .nav-toggle {
