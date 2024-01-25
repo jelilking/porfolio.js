@@ -759,7 +759,7 @@ h3.my-profession {
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 667px) {
   .contact .contact-form .col-6,
   .contact .contact-info-item,
   .portfolio .portfolio-item,
@@ -771,10 +771,7 @@ h3.my-profession {
     flex: 0 0 100%;
     max-width: 100%;
   }
-  .about .about-content .personal-info {
-    width: 98%;
-    /* padding-right: 1.2rem; */
-  }
+
   .aside .nav-toggle {
     height: 40px;
     width: 45px;
