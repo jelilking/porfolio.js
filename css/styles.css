@@ -61,8 +61,8 @@ body {
 
 .padd-15 {
   padding-left: 15px;
-  /* padding-right: 15px; */
-  padding-right: 20px;
+  padding-right: 15px;
+  /* padding-right: 20px; */
 }
 
 .container {
@@ -771,10 +771,10 @@ h3.my-profession {
     flex: 0 0 100%;
     max-width: 100%;
   }
-  /* .about .about-content .personal-info {
+  .about .about-content .personal-info {
     width: 98%;
-    padding-right: 1.2rem;
-  } */
+    /* padding-right: 1.2rem; */
+  }
   .aside .nav-toggle {
     height: 40px;
     width: 45px;
