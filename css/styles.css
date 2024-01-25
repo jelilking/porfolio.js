@@ -777,6 +777,67 @@ h3.my-profession {
     flex-direction: column;
   }
 
+  .home .home-img {
+    flex: 0 0 100%;
+    max-width: 100%;
+    display: block;
+    margin-top: 5rem;
+    text-align: center;
+    position: relative;
+    margin-bottom: -60px;
+  }
+
+  .home-img::after {
+    content: "";
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-bottom: 10px solid var(--skin-color);
+    border-right: 10px solid var(--skin-color);
+    right: 10px;
+    bottom: -20px;
+  }
+
+  .home-img::before {
+    content: "";
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border-top: 10px solid var(--skin-color);
+    border-left: 10px solid var(--skin-color);
+    left: 5px;
+    top: -20px;
+  }
+
+  /* .home .home-img {
+  flex: 0 0 40%;
+  max-width: 40%;
+  text-align: center;
+  position: relative;
+}
+
+.home-img::after {
+  content: "";
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  border-bottom: 10px solid var(--skin-color);
+  border-right: 10px solid var(--skin-color);
+  right: 20px;
+  bottom: -40px;
+}
+
+.home-img::before {
+  content: "";
+  position: absolute;
+  height: 80px;
+  width: 80px;
+  border-top: 10px solid var(--skin-color);
+  border-left: 10px solid var(--skin-color);
+  left: -20px;
+  top: -40px;
+} */
+
   .aside .nav-toggle {
     height: 40px;
     width: 45px;
