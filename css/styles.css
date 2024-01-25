@@ -766,14 +766,28 @@ h3.my-profession {
   .service .service-item,
   .about .about-content .education,
   .about .about-content .experience,
-  .about .about-content .skills {
+  .about .about-content .skills,
+  .about .about-content .personal-info {
     flex: 0 0 100%;
     max-width: 100%;
   }
 
-  .about .about-content .personal-info {
-    flex: 0 0 80%;
-    max-width: 80%;
+  .about .about-content .personal-info .row {
+    /* display: flex; */
+    /* flex: 0 0 100%;
+    max-width: 100%; */
+    /* margin-right: 3rem; */
+    /* padding-right: 1rem;
+    justify-content: space-around; */
+    /* display: grid;
+    grid-template-columns: 1fr; */
+
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    /* margin: auto; */
+    /* text-align: center; */
+    /* margin-inline: auto; */
   }
 
   .aside .nav-toggle {
