@@ -829,4 +829,8 @@ h3.my-profession {
     align-items: center;
     justify-content: center;
   }
+
+  .aside.show {
+    left: 0px;
+  }
 }
